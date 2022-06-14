@@ -1,0 +1,74 @@
+header {
+  background-color: black;
+}
+
+header div div a .logo-header {
+  width: 200px;
+}
+
+header .container div .btn-warning {
+  background-color: aqua;
+  border-color: aqua;
+}
+
+.col-md-6 {
+  margin: 50px 0 50px 0;
+}
+
+#catalogo-banner {
+  background-image: url(https://www.itl.cat/pngfile/big/293-2936310_computer-gamer-gaming-republic-technics-technology-pc-gaming.jpg);
+  background-attachment: fixed;
+}
+
+#catalogo-banner div div {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 1rem;
+  padding: 5vh;
+}
+
+#catalogo-banner h1 {
+  color: aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#catalogo-banner p {
+  color: aliceblue;
+}
+
+#catalogo-banner #azul {
+  background-color: aqua;
+  border-color: aqua;
+  color: black;
+}
+
+.card {
+  background-color: var(--bs-body-color);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card div p {
+  color: aliceblue;
+}
+
+.card div div small {
+  color: aliceblue;
+}
+
+#main-contacto {
+  margin: 100px;
+}
+
+#terms-main {
+  padding: 100px;
+}
+
+#terms-main h1 {
+  font-size: 3vw;
+}
+
+#terms-main h2 {
+  font-size: 2vw;
+}
+/*# sourceMappingURL=sass.css.map */

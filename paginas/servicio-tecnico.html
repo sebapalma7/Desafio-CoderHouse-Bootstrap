@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../scss/sass.css">
+    <title>TecnoXD - Servicio Técnico</title>
+</head>
+<body>
+    <header class="p-3 bg-dark text-white">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="../index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+              <img src="../imagenes/logo-tecnoxd.png" alt="logo tecnoxd" class="logo-header">
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="../index.html" class="nav-link px-2 text-white">Inicio</a></li>
+              <li><a href="catalogo.html" class="nav-link px-2 text-white">Catálogo</a></li>
+              <li><a href="contacto.html" class="nav-link px-2 text-white">Contacto</a></li>
+              <li><a href="servicio-tecnico.html" class="nav-link px-2 text-secondary">Servicio Técnico</a></li>
+              <li><a href="terminos-y-condiciones.html" class="nav-link px-2 text-white">Términos y condiciones</a></li>
+            </ul>
+    
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                <input type="search" class="form-control form-control-dark text-white bg-dark" placeholder="Buscar..." aria-label="Buscar">
+              </form>
+      
+              <div class="text-end">
+                <button type="button" class="btn btn-outline-light me-2">Ingresar</button>
+                <button type="button" class="btn btn-warning">Registrate</button>
+              </div>
+          </div>
+        </div>
+      </header>
+      <main  >
+        <div class="modal modal-sheet position-static d-block bg-secondary py-5" tabindex="-1" role="dialog" id="modalSheet">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content rounded-4 shadow">
+                <div class="modal-header border-bottom-0">
+                  <h5 class="modal-title">Consultas de reparaciones</h5>
+                </div>
+                <div class="modal-body py-0">
+                  <p>Ingrese el Código de Verificación web</p>
+                </div>
+                <div class="modal-footer flex-column border-top-0">
+                    <input type="text" id="inputDisabledEx2" class="form-control">
+                  <button type="button" class="btn btn-lg btn-primary w-100 mx-0 mb-2">Consultar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </main>
+      <div class="modal modal-sheet position-static d-block bg-secondary py-5" tabindex="-1" role="dialog" id="modalSheet">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content rounded-4 shadow">
+            <div class="modal-header border-bottom-0">
+              <h5 class="modal-title">Consultá por disponibilidad para armado de PC ó servicio técnico</h5>
+            </div>
+            <div class="modal-footer flex-column border-top-0">
+              <a href="contacto.html" class="btn btn-lg btn-primary w-100 mx-0 mb-2">Consultar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-muted">Inicio</a></li>
+            <li class="nav-item"><a href="catalogo.html" class="nav-link px-2 text-muted">Catálogo</a></li>
+            <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
+            <li class="nav-item"><a href="servicio-tecnico.html" class="nav-link px-2 text-muted">Servicio Técnico</a></li>
+            <li class="nav-item"><a href="terminos-y-condiciones.html" class="nav-link px-2 text-muted">Términos y condiciones</a></li>
+          </ul>
+          <p class="text-center text-muted">© 2022 TecnoXD, Informática </p>
+        </footer>
+    </div>
+    <script src="../js/bootstrap.js"></script>
+</body>
+</html>

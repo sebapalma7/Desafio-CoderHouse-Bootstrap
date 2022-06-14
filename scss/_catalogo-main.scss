@@ -1,0 +1,31 @@
+#catalogo-banner {
+    background-image: url(https://www.itl.cat/pngfile/big/293-2936310_computer-gamer-gaming-republic-technics-technology-pc-gaming.jpg);
+    background-attachment: fixed;
+    div div {
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 1rem;
+        padding: 5vh;
+    }
+    h1 {
+        color: aliceblue;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    p{
+        color: aliceblue;
+    }
+    #azul {
+        background-color: aqua;
+        border-color: aqua;
+        color: black;
+    }
+}
+.card {
+    background-color: var(--bs-body-color);
+    align-items: center;
+    div p {
+        color: aliceblue;
+    }
+    div div small {
+        color: aliceblue;
+    }
+}
